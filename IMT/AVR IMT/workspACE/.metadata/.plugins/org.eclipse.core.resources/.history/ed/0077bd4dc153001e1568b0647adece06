@@ -1,0 +1,109 @@
+#include<avr/io.h>
+#include<util/delay.h>
+#include"BIT_MATH.h"
+#include"STD_types.h"
+#include"DIO_interface.h"
+#include"DIO_register.h"
+#include"LCD_interface.h"
+
+
+
+void main (void){
+
+
+	/*	DDRA=255;
+	DDRC=0x00;
+	PORTC=0X01;
+	while(1){
+		if ((PINC & 0x01)==0)
+		{
+			PORTA=0xff;
+			_delay_ms(500);
+			PORTA=0x00;
+			}
+		else{PORTA=0X00;}
+		}
+
+*/
+	LCD_vidInit();
+	while(1){
+		LCD_vidSendCommand(lcd_Clear);
+		Gotoxy(1,0);
+		LCD_vidWriteString("AHMED",5);
+		_delay_ms(1000);
+
+	}
+
+
+
+/*
+	KPD_init();
+	DIO_SetPortDirection(PORT_B,PORT_OUTPUT);
+	u8 arr[10]={0b00111111,0b00000110,0b01011011,0b01001111,0b01100110,0b01101101,0b01111101,0b00000111,0b01111111,0b01101111};
+	u8 x;
+	while(1){
+		x= KPD_GetKey();
+		switch (x){
+		case(0):
+				DIO_SetPortValue(PORT_B,~arr[0]);
+		break;
+
+		case(1):
+				DIO_SetPortValue(PORT_B,~arr[1]);
+		break;
+
+		case(2):
+				DIO_SetPortValue(PORT_B,~arr[2]);
+		break;
+
+		case(3):
+				DIO_SetPortValue(PORT_B,~arr[3]);
+		break;
+
+		case(4):
+				DIO_SetPortValue(PORT_B,~arr[4]);
+		break;
+
+		case(5):
+				DIO_SetPortValue(PORT_B,~arr[5]);
+		break;
+
+		case(6):
+				DIO_SetPortValue(PORT_B,~arr[6]);
+		break;
+
+		case(7):
+				DIO_SetPortValue(PORT_B,~arr[7]);
+		break;
+
+		case(8):
+				DIO_SetPortValue(PORT_B,~arr[8]);
+		break;
+
+		case(9):
+				DIO_SetPortValue(PORT_B,~arr[9]);
+		break;
+
+		}*/
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

@@ -1,0 +1,136 @@
+16:51:12 **** Incremental Build of configuration Debug for project imt1st ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+In file included from ../main.c:2:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+In file included from ../main.c:8:
+../EXTI_interface.h:26:1: warning: "INTF0" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:269:1: warning: this is the location of the previous definition
+In file included from ../main.c:8:
+../EXTI_interface.h:27:1: warning: "INTF1" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:268:1: warning: this is the location of the previous definition
+In file included from ../main.c:9:
+../EXTI_register.h:12:1: warning: "GICR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:163:1: warning: this is the location of the previous definition
+In file included from ../main.c:9:
+../EXTI_register.h:13:1: warning: "MCUCR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:152:1: warning: this is the location of the previous definition
+In file included from ../main.c:9:
+../EXTI_register.h:14:1: warning: "MCUCSR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:151:1: warning: this is the location of the previous definition
+In file included from ../main.c:9:
+../EXTI_register.h:15:1: warning: "GIFR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:161:1: warning: this is the location of the previous definition
+In file included from ../main.c:11:
+../Global_Interrupt_register.h:11:1: warning: "SREG" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:410,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/common.h:103:1: warning: this is the location of the previous definition
+In file included from ../main.c:13:
+../ADC_register.h:12:1: warning: "ADMUX" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:66:1: warning: this is the location of the previous definition
+In file included from ../main.c:13:
+../ADC_register.h:13:1: warning: "ADCSRA" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:65:1: warning: this is the location of the previous definition
+In file included from ../main.c:13:
+../ADC_register.h:14:1: warning: "ADCH" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:64:1: warning: this is the location of the previous definition
+In file included from ../main.c:13:
+../ADC_register.h:15:1: warning: "ADCL" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:63:1: warning: this is the location of the previous definition
+In file included from ../main.c:13:
+../ADC_register.h:17:1: warning: "SFIOR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:141:1: warning: this is the location of the previous definition
+In file included from ../main.c:17:
+../WDT_register.h:12:1: warning: "WDTCR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:116:1: warning: this is the location of the previous definition
+In file included from ../main.c:19:
+../UART_register.h:11:1: warning: "UDR" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:75:1: warning: this is the location of the previous definition
+In file included from ../main.c:19:
+../UART_register.h:12:1: warning: "UCSRA" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:74:1: warning: this is the location of the previous definition
+In file included from ../main.c:19:
+../UART_register.h:15:1: warning: "UCSRB" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:73:1: warning: this is the location of the previous definition
+In file included from ../main.c:19:
+../UART_register.h:24:1: warning: "UCSRC" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:114:1: warning: this is the location of the previous definition
+In file included from ../main.c:19:
+../UART_register.h:33:1: warning: "UBRRH" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:113:1: warning: this is the location of the previous definition
+In file included from ../main.c:19:
+../UART_register.h:34:1: warning: "UBRRL" redefined
+In file included from c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../main.c:1:
+c:/users/ahmed/onedrive/desktop/imt_sdk_win_64/winavr/lib/gcc/../../avr/include/avr/iom32.h:72:1: warning: this is the location of the previous definition
+../main.c:63: warning: return type of 'main' is not 'int'
+Finished building: ../main.c
+ 
+Building target: imt1st.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,imt1st.map -mmcu=atmega32 -o "imt1st.elf"  ./ADC_program.o ./DIO_program.o ./EXTI_program.o ./Global_Interrupt_program.o ./KPD_program.o ./LCD_program.o ./Timer_program.o ./UART_program.o ./WDT_program.o ./main.o   
+Finished building target: imt1st.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S imt1st.elf  >"imt1st.lss"
+Finished building: imt1st.lss
+ 
+Create Flash image (ihex format)
+avr-objcopy -R .eeprom -R .fuse -R .lock -R .signature -O ihex imt1st.elf  "imt1st.hex"
+Finished building: imt1st.hex
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 imt1st.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   10906 bytes (33.3% Full)
+(.text + .data + .bootloader)
+
+Data:         34 bytes (1.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+16:51:13 Build Finished (took 1s.102ms)
+
